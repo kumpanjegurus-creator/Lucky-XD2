@@ -15,7 +15,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "malvin~g6VFHDiR#63mP0lVxH9VJEKc6OmAkmMLdcfRxZjCBOg1t4fWkU-8",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
@@ -24,8 +24,8 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "256789966218",
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "265893660727",
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Mphatso",
   DEV: process.env.DEV || "256789966218",
   DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
   MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
@@ -41,12 +41,12 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ʟᴜᴄᴋʏ xᴅ✦ ғʀᴏᴍ ʟᴜᴄᴋʏ ᴛᴇᴄʜ ʜᴜʙ  ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/Tomilucky218/Lucky-XD2",
 
   // ===== REACTION & STICKER SETTINGS =====
-  AUTO_REACT: process.env.AUTO_REACT || "false",
-  OWNER_REACT: process.env.OWNER_REACT || "false",
-  CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+  AUTO_REACT: process.env.AUTO_REACT || "true",
+  OWNER_REACT: process.env.OWNER_REACT || "true",
+  CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
   CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
   STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ",
-  AUTO_STICKER: process.env.AUTO_STICKER || "false",
+  AUTO_STICKER: process.env.AUTO_STICKER || "true",
 
   // ===== MEDIA & AUTOMATION =====
   AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
@@ -56,8 +56,8 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
 
   // ===== SECURITY & ANTI-FEATURES =====
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  ANTI_CALL: process.env.ANTI_CALL || "false",
-  ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
+  ANTI_CALL: process.env.ANTI_CALL || "true",
+  ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
   ANTI_LINK: process.env.ANTI_LINK || "true",
   ANTI_VV: process.env.ANTI_VV || "true",
   DELETE_LINKS: process.env.DELETE_LINKS || "false",
